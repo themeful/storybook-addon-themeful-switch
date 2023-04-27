@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "baseUrl": ".",
+    "incremental": false,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "types": ["node", "webpack-env"],
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": []
+}
