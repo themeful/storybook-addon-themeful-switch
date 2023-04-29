@@ -61,7 +61,7 @@ devDependencies:
     specifier: 7.0.7
     version: 7.0.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)
   '@storybook/react-webpack5':
-    specifier: ^7.0.7
+    specifier: 7.0.7
     version: 7.0.7(@babel/core@7.21.5)(esbuild@0.17.18)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)
   '@types/lodash':
     specifier: 4.14.194
@@ -115,7 +115,7 @@ devDependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   storybook:
-    specifier: ^7.0.7
+    specifier: 7.0.7
     version: 7.0.7
   typescript:
     specifier: 5.0.4
