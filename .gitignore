@@ -106,4 +106,4 @@ dist
 # TernJS port file
 .tern-port
 
-ts3.5
+storybook-static/

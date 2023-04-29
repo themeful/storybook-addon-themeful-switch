@@ -45,3 +45,6 @@ jobs:
 
       - name: Run build addon
         run: pnpm build
+
+      - name: Run build storybook with addon
+        run: pnpm storybook:build
