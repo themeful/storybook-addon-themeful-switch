@@ -91,3 +91,16 @@ export default {
   },
 };
 ```
+
+## OnChange Callback
+
+```ts
+export const parameters = {
+  themefulSwitch: {
+    onChange: (slug, frame) => {
+      const body = frame?.document.body
+      console.log('changed', slug, frame, body)
+    },
+  },
+};
+```
