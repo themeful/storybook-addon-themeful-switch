@@ -65,7 +65,7 @@
     "@storybook/react-webpack5": "7.0.9",
     "@types/lodash": "4.14.194",
     "@types/node": "18.16.5",
-    "@types/react": "18.2.5",
+    "@types/react": "18.2.6",
     "@types/util-deprecate": "1.0.0",
     "@types/webpack-env": "1.18.0",
     "@typescript-eslint/eslint-plugin": "5.59.2",
