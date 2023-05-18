@@ -64,7 +64,7 @@
     "@storybook/react": "7.0.12",
     "@storybook/react-webpack5": "7.0.12",
     "@types/lodash": "4.14.194",
-    "@types/node": "18.16.12",
+    "@types/node": "18.16.13",
     "@types/react": "18.2.6",
     "@types/util-deprecate": "1.0.0",
     "@types/webpack-env": "1.18.0",
