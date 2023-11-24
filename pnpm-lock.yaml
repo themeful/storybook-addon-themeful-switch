@@ -2874,7 +2874,7 @@ packages:
       react-colorful: 5.6.1(react-dom@18.2.0)(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
       telejson: 7.2.0
-      tocbot: 4.22.0
+      tocbot: 4.23.0
       ts-dedent: 2.2.0
       util-deprecate: 1.0.2
     transitivePeerDependencies:
@@ -4728,7 +4728,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001564
-      electron-to-chromium: 1.4.592
+      electron-to-chromium: 1.4.593
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
@@ -5381,8 +5381,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.592:
-    resolution: {integrity: sha512-D3NOkROIlF+d5ixnz7pAf3Lu/AuWpd6AYgI9O67GQXMXTcCP1gJQRotOq35eQy5Sb4hez33XH1YdTtILA7Udww==}
+  /electron-to-chromium@1.4.593:
+    resolution: {integrity: sha512-c7+Hhj87zWmdpmjDONbvNKNo24tvmD4mjal1+qqTYTrlF0/sNpAcDlU0Ki84ftA/5yj3BF2QhSGEC0Rky6larg==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -9139,8 +9139,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /tocbot@4.22.0:
-    resolution: {integrity: sha512-YHCs00HCNiHxUhksloa36fTfMEXEWV+vdPn3ARQfmj2u3PcUYIjJkfc+ABUfCF9Eb+LSy/QzuLl256fbsRnpHQ==}
+  /tocbot@4.23.0:
+    resolution: {integrity: sha512-5DWuSZXsqG894mkGb8ZsQt9myyQyVxE50AiGRZ0obV0BVUTVkaZmc9jbgpknaAAPUm4FIrzGkEseD6FuQJYJDQ==}
     dev: true
 
   /toidentifier@1.0.1:
