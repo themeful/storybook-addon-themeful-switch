@@ -1929,7 +1929,7 @@ packages:
     peerDependencies:
       react: '>=16'
     dependencies:
-      '@types/mdx': 2.0.10
+      '@types/mdx': 2.0.11
       '@types/react': 18.2.42
       react: 18.2.0
     dev: true
@@ -2769,7 +2769,7 @@ packages:
       browser-assert: 1.2.1
       case-sensitive-paths-webpack-plugin: 2.4.0
       constants-browserify: 1.0.0
-      css-loader: 6.9.1(webpack@5.90.0)
+      css-loader: 6.10.0(webpack@5.90.0)
       es-module-lexer: 1.4.1
       express: 4.18.2
       fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.3.3)(webpack@5.90.0)
@@ -3610,8 +3610,8 @@ packages:
     resolution: {integrity: sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==}
     dev: true
 
-  /@types/mdx@2.0.10:
-    resolution: {integrity: sha512-Rllzc5KHk0Al5/WANwgSPl1/CwjqCy+AZrGd78zuK+jO9aDM6ffblZ+zIjgPNAaEBmlO0RYDvLNh7wD0zKVgEg==}
+  /@types/mdx@2.0.11:
+    resolution: {integrity: sha512-HM5bwOaIQJIQbAYfax35HCKxx7a3KrK3nBtIqJgSOitivTD1y3oW9P3rxY9RkXYPUk7y/AjAohfHKmFpGE79zw==}
     dev: true
 
   /@types/mime-types@2.1.4:
@@ -4548,7 +4548,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001581
-      electron-to-chromium: 1.4.650
+      electron-to-chromium: 1.4.651
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.3)
     dev: true
@@ -4899,11 +4899,17 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /css-loader@6.9.1(webpack@5.90.0):
-    resolution: {integrity: sha512-OzABOh0+26JKFdMzlK6PY1u5Zx8+Ck7CVRlcGNZoY9qwJjdfu2VWFuprTIpPW+Av5TZTVViYWcFQaEEQURLknQ==}
+  /css-loader@6.10.0(webpack@5.90.0):
+    resolution: {integrity: sha512-LTSA/jWbwdMlk+rhmElbDR2vbtQoTBPr7fkJE+mxrHj+7ru0hUmHafDRzWIjIHTwpitWVaqY2/UWGRca3yUgRw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
+      '@rspack/core': 0.x || 1.x
       webpack: ^5.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.33)
       postcss: 8.4.33
@@ -5185,8 +5191,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.650:
-    resolution: {integrity: sha512-sYSQhJCJa4aGA1wYol5cMQgekDBlbVfTRavlGZVr3WZpDdOPcp6a6xUnFfrt8TqZhsBYYbDxJZCjGfHuGupCRQ==}
+  /electron-to-chromium@1.4.651:
+    resolution: {integrity: sha512-jjks7Xx+4I7dslwsbaFocSwqBbGHQmuXBJUK9QBZTIrzPq3pzn6Uf2szFSP728FtLYE3ldiccmlkOM/zhGKCpA==}
     dev: true
 
   /emoji-regex@8.0.0:
